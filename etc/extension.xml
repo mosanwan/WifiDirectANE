@@ -1,0 +1,13 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+<id>org.sanwu.wifiane.Extendsion</id>
+<versionNumber>1</versionNumber>
+<platforms>
+<platform name="Android-ARM">
+<applicationDeployment>
+<nativeLibrary>wifiap.jar</nativeLibrary>
+<initializer>org.sanwu.wifiane.Extendsion</initializer>
+<finalizer>org.sanwu.wifiane.Extendsion</finalizer>
+</applicationDeployment>
+</platform>
+</platforms>
+</extension>
