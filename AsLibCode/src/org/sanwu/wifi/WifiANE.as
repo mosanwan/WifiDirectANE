@@ -64,6 +64,7 @@ package org.sanwu.wifi
 		public function connectToWifiAp(ssid:String,key:String):void
 		{
 			trace(context.call("WIFIANE",CONNECT_TO_WIFI_AP,ssid,key));
+			//hello game
 		}
 	}
 }
